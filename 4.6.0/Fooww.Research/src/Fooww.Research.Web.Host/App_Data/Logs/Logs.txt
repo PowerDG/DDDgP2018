@@ -1,0 +1,1025 @@
+DEBUG 2019-06-26 13:31:53,918 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 13:31:54,058 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 13:31:54,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,085 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,109 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,111 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:54,116 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 13:31:54,220 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 13:31:54,220 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 13:31:54,221 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 13:31:54,221 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 13:31:54,671 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 13:31:56,187 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 13:31:56,295 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 13:31:56,342 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 13:31:56,369 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 13:31:56,402 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 13:31:56,656 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 13:31:56,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 13:31:56,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 13:31:56,729 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 13:31:56,730 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 13:31:56,731 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 13:31:56,731 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 13:31:56,731 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 13:31:56,731 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 13:31:56,731 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 13:31:56,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 13:31:56,733 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 13:32:06,352 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 13:32:11,781 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 13:32:13,308 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 13:32:13,318 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.4741ms.
+INFO  2019-06-26 13:32:13,624 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 13:32:13,646 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 1854.5409ms
+INFO  2019-06-26 13:32:13,733 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7388.1885ms 302 
+INFO  2019-06-26 13:32:13,971 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 13:32:14,038 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.8268ms 200 text/html
+INFO  2019-06-26 13:32:14,277 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 13:32:14,287 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 13:32:14,292 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 13:32:14,329 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 13:32:14,333 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-06-26 13:32:14,337 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 13:32:14,348 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 83.6281ms 304 text/css
+INFO  2019-06-26 13:32:14,354 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.4093ms 304 application/javascript
+INFO  2019-06-26 13:32:14,369 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.1167ms 304 application/javascript
+INFO  2019-06-26 13:32:14,816 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 13:32:15,210 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 401.2139ms 200 application/json;charset=utf-8
+INFO  2019-06-26 13:32:26,753 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2019-06-26 13:32:26,930 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action Fooww.Research.Controllers.TokenAuthController.Authenticate (Fooww.Research.Web.Core)
+INFO  2019-06-26 13:32:28,068 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Controllers.TokenAuthController.Authenticate (Fooww.Research.Web.Core) with arguments (Fooww.Research.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-06-26 13:32:29,469 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Controllers.TokenAuthController.Authenticate (Fooww.Research.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1397.4808ms.
+INFO  2019-06-26 13:32:29,558 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:32:29,604 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Controllers.TokenAuthController.Authenticate (Fooww.Research.Web.Core) in 2671.2098ms
+INFO  2019-06-26 13:32:29,618 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2867.8035ms 200 application/json; charset=utf-8
+INFO  2019-06-26 13:32:33,124 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 50
+INFO  2019-06-26 13:32:33,136 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action Fooww.Research.Controllers.TokenAuthController.Authenticate (Fooww.Research.Web.Core)
+INFO  2019-06-26 13:32:33,181 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Controllers.TokenAuthController.Authenticate (Fooww.Research.Web.Core) with arguments (Fooww.Research.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2019-06-26 13:32:33,334 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Controllers.TokenAuthController.Authenticate (Fooww.Research.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 148.2353ms.
+INFO  2019-06-26 13:32:33,371 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:32:33,376 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Controllers.TokenAuthController.Authenticate (Fooww.Research.Web.Core) in 235.6821ms
+INFO  2019-06-26 13:32:33,382 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 256.2533ms 200 application/json; charset=utf-8
+INFO  2019-06-26 13:32:42,945 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/TokenAuth/GetExternalAuthenticationProviders  
+INFO  2019-06-26 13:32:43,017 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:32:43,124 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetExternalAuthenticationProviders", controller = "TokenAuth", area = ""}. Executing action Fooww.Research.Controllers.TokenAuthController.GetExternalAuthenticationProviders (Fooww.Research.Web.Core)
+INFO  2019-06-26 13:32:43,195 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Controllers.TokenAuthController.GetExternalAuthenticationProviders (Fooww.Research.Web.Core) - Validation state: Valid
+INFO  2019-06-26 13:32:43,261 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Controllers.TokenAuthController.GetExternalAuthenticationProviders (Fooww.Research.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 60.9651ms.
+INFO  2019-06-26 13:32:43,313 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:32:43,317 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Controllers.TokenAuthController.GetExternalAuthenticationProviders (Fooww.Research.Web.Core) in 189.0136ms
+INFO  2019-06-26 13:32:43,338 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 381.1101ms 200 application/json; charset=utf-8
+INFO  2019-06-26 13:32:54,478 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll  
+INFO  2019-06-26 13:32:54,482 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:32:54,517 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application)
+INFO  2019-06-26 13:32:54,896 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+INFO  2019-06-26 13:32:56,042 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1143.1864ms.
+INFO  2019-06-26 13:32:56,072 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:32:56,084 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application) in 1561.6858ms
+INFO  2019-06-26 13:32:56,091 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1610.4608ms 200 application/json; charset=utf-8
+INFO  2019-06-26 13:34:36,928 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Role/Create application/json-patch+json 142
+INFO  2019-06-26 13:34:36,942 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:34:36,945 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:34:36,959 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:34:36,970 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application)
+INFO  2019-06-26 13:34:36,973 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:34:36,977 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:34:37,049 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.CreateRoleDto) - Validation state: Valid
+ERROR 2019-06-26 13:34:37,633 [16   ] Mvc.ExceptionHandling.AbpExceptionFilter - Object reference not set to an instance of an object.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Fooww.Research.Roles.RoleAppService.<>c__DisplayClass3_0.<Create>b__0(Permission p) in E:\GitHub\github.PowerDG\DDDgP2018\4.6.0\Fooww.Research\src\Fooww.Research.Application\Roles\RoleAppService.cs:line 44
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Fooww.Research.Roles.RoleAppService.Create(CreateRoleDto input) in E:\GitHub\github.PowerDG\DDDgP2018\4.6.0\Fooww.Research\src\Fooww.Research.Application\Roles\RoleAppService.cs:line 42
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction)
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-06-26 13:34:38,250 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:34:38,262 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) in 1286.4877ms
+INFO  2019-06-26 13:34:38,273 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1344.1571ms 500 application/json; charset=utf-8
+INFO  2019-06-26 13:35:00,693 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Role/Create application/json-patch+json 129
+INFO  2019-06-26 13:35:00,696 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:35:00,701 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:35:00,709 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:35:00,723 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application)
+INFO  2019-06-26 13:35:00,731 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:35:00,738 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:35:00,790 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.CreateRoleDto) - Validation state: Valid
+INFO  2019-06-26 13:35:00,974 [22   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 180.4913ms.
+INFO  2019-06-26 13:35:01,026 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:35:01,033 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) in 303.5815ms
+INFO  2019-06-26 13:35:01,044 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 344.7156ms 200 application/json; charset=utf-8
+INFO  2019-06-26 13:35:35,587 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll  
+INFO  2019-06-26 13:35:35,596 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:35:35,615 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application)
+INFO  2019-06-26 13:35:35,650 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+INFO  2019-06-26 13:35:35,720 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 64.2243ms.
+INFO  2019-06-26 13:35:35,768 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:35:35,776 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application) in 153.1106ms
+INFO  2019-06-26 13:35:35,788 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 215.7479ms 200 application/json; charset=utf-8
+INFO  2019-06-26 13:35:48,731 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DELETE http://localhost:21021/api/services/app/Role/Delete?Id=4  
+INFO  2019-06-26 13:35:48,742 [25   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:35:48,748 [25   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:35:48,754 [25   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:35:48,785 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Delete", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Delete (Fooww.Research.Application)
+INFO  2019-06-26 13:35:48,788 [25   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:35:48,791 [25   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:35:48,845 [25   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.Delete (Fooww.Research.Application) with arguments (Abp.Application.Services.Dto.EntityDto`1[System.Int32]) - Validation state: Valid
+INFO  2019-06-26 13:35:49,207 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.Delete (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 358.2096ms.
+INFO  2019-06-26 13:35:49,321 [28   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:35:49,334 [28   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Delete (Fooww.Research.Application) in 536.012ms
+INFO  2019-06-26 13:35:49,346 [28   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 612.2347ms 200 application/json; charset=utf-8
+INFO  2019-06-26 13:36:15,352 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Role/Create application/json-patch+json 142
+INFO  2019-06-26 13:36:15,355 [18   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:36:15,358 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:36:15,362 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:36:15,372 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application)
+INFO  2019-06-26 13:36:15,375 [18   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:36:15,378 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+WARN  2019-06-26 13:36:15,453 [29   ] Mvc.ExceptionHandling.AbpExceptionFilter - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 118
+   at Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate() in D:\Github\aspnetboilerplate\src\Abp\Runtime\Validation\Interception\MethodInvocationValidator.cs:line 89
+   at Abp.AspNetCore.Mvc.Validation.AbpValidationActionFilter.OnActionExecutionAsync(ActionExecutingContext context, ActionExecutionDelegate next) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Mvc\Validation\AbpValidationActionFilter.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+WARN  2019-06-26 13:36:15,455 [29   ] Mvc.ExceptionHandling.AbpExceptionFilter - There are 1 validation errors:
+WARN  2019-06-26 13:36:15,455 [29   ] Mvc.ExceptionHandling.AbpExceptionFilter -  (normalizedName)
+INFO  2019-06-26 13:36:15,470 [29   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:36:15,482 [29   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) in 103.5327ms
+INFO  2019-06-26 13:36:15,491 [29   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.0204ms 400 application/json; charset=utf-8
+INFO  2019-06-26 13:36:28,232 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Role/Create application/json-patch+json 143
+INFO  2019-06-26 13:36:28,236 [18   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:36:28,239 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:36:28,242 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:36:28,252 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application)
+INFO  2019-06-26 13:36:28,256 [18   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:36:28,259 [18   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:36:28,294 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.CreateRoleDto) - Validation state: Valid
+INFO  2019-06-26 13:36:28,349 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 49.8834ms.
+INFO  2019-06-26 13:36:28,397 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:36:28,409 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) in 146.4528ms
+INFO  2019-06-26 13:36:28,432 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 182.5109ms 200 application/json; charset=utf-8
+INFO  2019-06-26 13:37:30,014 [31   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Role/Create application/json-patch+json 128
+INFO  2019-06-26 13:37:30,017 [31   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:37:30,021 [31   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:37:30,027 [31   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 13:37:30,067 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application)
+INFO  2019-06-26 13:37:30,070 [31   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 13:37:30,075 [31   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 13:37:30,111 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.CreateRoleDto) - Validation state: Valid
+INFO  2019-06-26 13:37:30,236 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 121.0421ms.
+INFO  2019-06-26 13:37:30,280 [30   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 13:37:30,288 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) in 214.8164ms
+INFO  2019-06-26 13:37:30,296 [30   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 277.2385ms 200 application/json; charset=utf-8
+DEBUG 2019-06-26 14:11:33,818 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:11:33,939 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:11:33,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,970 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:11:33,974 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:11:34,083 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:11:34,083 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:11:34,083 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:11:34,083 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:11:34,570 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,723 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:13:54,836 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:13:54,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,864 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,865 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,866 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,867 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,868 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,869 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,870 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:13:54,876 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:13:54,979 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:13:54,979 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:13:54,979 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:13:54,979 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:13:55,437 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+FATAL 2019-06-26 14:13:56,390 [1    ] Abp.AbpBootstrapper                      - Abp.AbpInitializationException: Duplicate permission name detected for  Identifications.Staff.Init
+   at Abp.Authorization.PermissionDictionary.AddPermissionRecursively(Permission permission) in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionDictionary.cs:line 34
+   at Abp.Authorization.PermissionDictionary.AddPermissionRecursively(Permission permission) in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionDictionary.cs:line 43
+   at Abp.Authorization.PermissionDictionary.AddAllPermissions() in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionDictionary.cs:line 16
+   at Abp.AbpKernelModule.PostInitialize() in D:\Github\aspnetboilerplate\src\Abp\AbpKernelModule.cs:line 83
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+Abp.AbpInitializationException: Duplicate permission name detected for  Identifications.Staff.Init
+   at Abp.Authorization.PermissionDictionary.AddPermissionRecursively(Permission permission) in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionDictionary.cs:line 34
+   at Abp.Authorization.PermissionDictionary.AddPermissionRecursively(Permission permission) in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionDictionary.cs:line 43
+   at Abp.Authorization.PermissionDictionary.AddAllPermissions() in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionDictionary.cs:line 16
+   at Abp.AbpKernelModule.PostInitialize() in D:\Github\aspnetboilerplate\src\Abp\AbpKernelModule.cs:line 83
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+DEBUG 2019-06-26 14:17:10,982 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:17:11,122 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:17:11,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,159 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,161 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:11,166 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:17:11,272 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:17:11,272 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:17:11,272 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:17:11,272 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:17:11,745 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:17:13,206 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 14:17:13,328 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 14:17:13,379 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 14:17:13,406 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 14:17:13,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 14:17:13,687 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 14:17:13,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 14:17:13,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 14:17:13,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 14:17:13,766 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 14:17:13,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 14:17:13,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 14:17:13,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 14:17:13,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 14:17:13,768 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 14:17:13,768 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 14:17:13,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 14:17:22,169 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 14:17:28,099 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 14:17:29,588 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 14:17:29,600 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.3219ms.
+INFO  2019-06-26 14:17:29,760 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 14:17:29,780 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 1673.2345ms
+INFO  2019-06-26 14:17:29,862 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7697.4478ms 302 
+INFO  2019-06-26 14:17:29,871 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 14:17:29,941 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.6141ms 200 text/html
+INFO  2019-06-26 14:17:30,203 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 14:17:30,224 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 14:17:30,241 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-06-26 14:17:30,245 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 14:17:30,261 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-06-26 14:17:30,284 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 14:17:30,284 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 14:17:30,322 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 86.6835ms 304 application/javascript
+INFO  2019-06-26 14:17:30,347 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.8552ms 304 application/javascript
+INFO  2019-06-26 14:17:30,369 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\GitHub\github.PowerDG\DDDgP2018\4.6.0\Fooww.Research\src\Fooww.Research.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-06-26 14:17:30,380 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\GitHub\github.PowerDG\DDDgP2018\4.6.0\Fooww.Research\src\Fooww.Research.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-06-26 14:17:30,394 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-06-26 14:17:30,407 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 209.4227ms 200 text/css
+INFO  2019-06-26 14:17:30,425 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 153.8868ms 200 application/javascript
+INFO  2019-06-26 14:17:30,440 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.4915ms 200 application/javascript
+INFO  2019-06-26 14:17:30,984 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 14:17:31,297 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:17:31,805 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 834.446ms 200 application/json;charset=utf-8
+INFO  2019-06-26 14:19:05,116 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAllPermissions  
+INFO  2019-06-26 14:19:05,120 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:19:05,177 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.GetAllPermissions (Fooww.Research.Application)
+INFO  2019-06-26 14:19:06,671 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.GetAllPermissions (Fooww.Research.Application) - Validation state: Valid
+WARN  2019-06-26 14:19:07,240 [16   ] naries.DictionaryBasedLocalizationSource - Can not find ' Identifications.Staff.Init' in localization source 'Research'!
+WARN  2019-06-26 14:19:07,242 [16   ] naries.DictionaryBasedLocalizationSource - Can not find 'Pages' in localization source 'Research'!
+WARN  2019-06-26 14:19:07,243 [16   ] naries.DictionaryBasedLocalizationSource - Can not find ' Identifications.Staff.Members' in localization source 'Research'!
+WARN  2019-06-26 14:19:07,244 [16   ] naries.DictionaryBasedLocalizationSource - Can not find ' Identifications.Staff.Guest' in localization source 'Research'!
+WARN  2019-06-26 14:19:07,245 [16   ] naries.DictionaryBasedLocalizationSource - Can not find ' Identifications.Staff.Assistant' in localization source 'Research'!
+INFO  2019-06-26 14:19:07,252 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.GetAllPermissions (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 577.7148ms.
+INFO  2019-06-26 14:19:07,400 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:19:07,437 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.GetAllPermissions (Fooww.Research.Application) in 2256.7031ms
+INFO  2019-06-26 14:19:07,447 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2328.8374ms 200 application/json; charset=utf-8
+INFO  2019-06-26 14:20:21,977 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Role/Create application/json-patch+json 184
+INFO  2019-06-26 14:20:21,996 [17   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 14:20:21,999 [17   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 14:20:22,018 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:20:22,069 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application)
+INFO  2019-06-26 14:20:22,073 [17   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 14:20:22,077 [17   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 14:20:22,457 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.CreateRoleDto) - Validation state: Valid
+INFO  2019-06-26 14:20:22,903 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 443.1226ms.
+INFO  2019-06-26 14:20:23,096 [17   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:20:23,103 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Create (Fooww.Research.Application) in 1030.0762ms
+INFO  2019-06-26 14:20:23,114 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1135.8702ms 200 application/json; charset=utf-8
+INFO  2019-06-26 14:20:53,389 [17   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll  
+INFO  2019-06-26 14:20:53,392 [17   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:20:53,423 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application)
+INFO  2019-06-26 14:20:53,487 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.PagedRoleResultRequestDto) - Validation state: Valid
+INFO  2019-06-26 14:20:54,234 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 742.937ms.
+INFO  2019-06-26 14:20:54,276 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:20:54,298 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.GetAll (Fooww.Research.Application) in 857.4849ms
+INFO  2019-06-26 14:20:54,345 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 912.6454ms 200 application/json; charset=utf-8
+INFO  2019-06-26 14:22:11,404 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/Role/Update application/json-patch+json 198
+INFO  2019-06-26 14:22:11,407 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 14:22:11,410 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 14:22:11,419 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:22:11,449 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Update (Fooww.Research.Application)
+INFO  2019-06-26 14:22:11,452 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 14:22:11,456 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 14:22:11,508 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.Update (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.RoleDto) - Validation state: Valid
+INFO  2019-06-26 14:22:11,760 [31   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.Update (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 249.1051ms.
+INFO  2019-06-26 14:22:11,866 [24   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:22:11,881 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Update (Fooww.Research.Application) in 416.9786ms
+INFO  2019-06-26 14:22:11,905 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 481.1771ms 200 application/json; charset=utf-8
+INFO  2019-06-26 14:22:31,647 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 PUT http://localhost:21021/api/services/app/Role/Update application/json-patch+json 207
+INFO  2019-06-26 14:22:31,650 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 14:22:31,653 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 14:22:31,658 [24   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:22:31,674 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "Update", controller = "Role"}. Executing action Fooww.Research.Roles.RoleAppService.Update (Fooww.Research.Application)
+INFO  2019-06-26 14:22:31,677 [24   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2019-06-26 14:22:31,681 [24   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2019-06-26 14:22:31,725 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Roles.RoleAppService.Update (Fooww.Research.Application) with arguments (Fooww.Research.Roles.Dto.RoleDto) - Validation state: Valid
+INFO  2019-06-26 14:22:31,807 [30   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Roles.RoleAppService.Update (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 77.9831ms.
+INFO  2019-06-26 14:22:31,911 [37   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:22:31,922 [37   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Roles.RoleAppService.Update (Fooww.Research.Application) in 238.5115ms
+INFO  2019-06-26 14:22:31,946 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 279.1534ms 200 application/json; charset=utf-8
+DEBUG 2019-06-26 14:33:34,255 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:33:34,388 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:33:34,413 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,424 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,425 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:34,431 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:33:34,532 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:33:34,532 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:33:34,532 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:33:34,532 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:33:34,985 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:33:36,549 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 14:33:36,658 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 14:33:36,712 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 14:33:36,763 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 14:33:36,816 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 14:33:37,104 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 14:33:37,187 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 14:33:37,187 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 14:33:37,202 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 14:33:37,203 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 14:33:37,203 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 14:33:37,204 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 14:33:37,204 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 14:33:37,204 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 14:33:37,204 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 14:33:37,205 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 14:33:37,205 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 14:33:45,882 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 14:33:51,587 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 14:33:53,259 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 14:33:53,269 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 4.1781ms.
+INFO  2019-06-26 14:33:53,694 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 14:33:53,715 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 2117.909ms
+INFO  2019-06-26 14:33:53,809 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7936.9831ms 302 
+INFO  2019-06-26 14:33:53,814 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 14:33:53,880 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.2073ms 200 text/html
+INFO  2019-06-26 14:33:54,083 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 14:33:54,087 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 14:33:54,091 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-06-26 14:33:54,094 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-06-26 14:33:54,098 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 14:33:54,133 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2019-06-26 14:33:54,138 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-06-26 14:33:54,143 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2019-06-26 14:33:54,150 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 14:33:54,153 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 14:33:54,184 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 74.5979ms 304 application/javascript
+INFO  2019-06-26 14:33:54,204 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 91.6654ms 304 text/css
+INFO  2019-06-26 14:33:54,223 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.8405ms 304 application/javascript
+INFO  2019-06-26 14:33:54,227 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.0624ms 304 application/javascript
+INFO  2019-06-26 14:33:54,238 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 76.8384ms 304 application/javascript
+INFO  2019-06-26 14:33:54,618 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 14:33:54,842 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:33:55,477 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 878.854ms 200 application/json;charset=utf-8
+INFO  2019-06-26 14:34:37,063 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages  
+INFO  2019-06-26 14:34:37,066 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:34:37,150 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:34:39,263 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages) - Validation state: Valid
+ERROR 2019-06-26 14:34:52,998 [19   ] Mvc.ExceptionHandling.AbpExceptionFilter - Input string was not in a correct format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(ReadOnlySpan`1 value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.String.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Abp.Extensions.ObjectExtensions.To[T](Object obj) in D:\Github\aspnetboilerplate\src\Abp\Extensions\ObjectExtensions.cs:line 51
+   at Abp.UserIdentifier.Parse(String userIdentifierString) in D:\Github\aspnetboilerplate\src\Abp\UserIdentifier.cs:line 62
+   at Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync(String permissionName) in E:\GitHub\github.PowerDG\DDDgP2018\4.6.0\Fooww.Research\src\Fooww.Research.Application\Users\UserAppService.cs:line 235
+   at Castle.Proxies.Invocations.UserAppService_GetGrantedPermissionsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetGrantedPermissionsAsync(String permissionName)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-06-26 14:34:53,566 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:34:53,613 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 16458.204ms
+INFO  2019-06-26 14:34:53,619 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16555.0323ms 500 application/json; charset=utf-8
+INFO  2019-06-26 14:35:20,621 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenants  
+INFO  2019-06-26 14:35:20,626 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:35:20,651 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:35:20,698 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenants) - Validation state: Valid
+DEBUG 2019-06-26 14:35:57,536 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:35:57,669 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:35:57,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:57,706 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:35:57,810 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:35:57,810 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:35:57,810 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:35:57,810 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:35:58,280 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:35:59,804 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 14:35:59,924 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 14:35:59,972 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 14:35:59,999 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 14:36:00,041 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 14:36:00,289 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 14:36:00,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 14:36:00,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 14:36:00,375 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 14:36:00,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 14:36:00,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 14:36:00,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 14:36:00,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 14:36:00,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 14:36:00,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 14:36:00,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 14:36:00,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 14:36:08,760 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 14:36:14,722 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 14:36:16,340 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 14:36:16,349 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.9334ms.
+INFO  2019-06-26 14:36:16,842 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 14:36:16,879 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 2142.162ms
+INFO  2019-06-26 14:36:17,005 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8243.7429ms 302 
+INFO  2019-06-26 14:36:17,011 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 14:36:17,078 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.4806ms 200 text/html
+INFO  2019-06-26 14:36:17,310 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 14:36:17,314 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 14:36:17,317 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 14:36:17,370 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 14:36:17,377 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-06-26 14:36:17,382 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 14:36:17,401 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 82.2109ms 304 text/css
+INFO  2019-06-26 14:36:17,424 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 78.6001ms 304 application/javascript
+INFO  2019-06-26 14:36:17,457 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 79.4869ms 304 application/javascript
+INFO  2019-06-26 14:36:17,757 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 14:36:18,031 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:36:18,451 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 707.503ms 200 application/json;charset=utf-8
+INFO  2019-06-26 14:36:42,075 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenants  
+INFO  2019-06-26 14:36:42,082 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:36:42,156 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:36:44,285 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenants) - Validation state: Valid
+DEBUG 2019-06-26 14:38:45,692 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:38:45,860 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:38:45,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:45,896 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:38:46,021 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:38:46,022 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:38:46,022 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:38:46,022 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:38:46,484 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:38:48,060 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 14:38:48,168 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 14:38:48,224 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 14:38:48,252 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 14:38:48,284 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 14:38:48,522 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 14:38:48,585 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 14:38:48,585 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 14:38:48,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 14:38:48,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 14:38:48,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 14:38:48,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 14:38:48,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 14:38:48,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 14:38:48,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 14:38:48,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 14:38:48,600 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 14:38:57,393 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 14:39:03,915 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 14:39:05,525 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 14:39:05,538 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 4.1737ms.
+INFO  2019-06-26 14:39:05,967 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 14:39:05,993 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 2068.1311ms
+INFO  2019-06-26 14:39:06,137 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8748.7937ms 302 
+INFO  2019-06-26 14:39:06,142 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 14:39:06,208 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.8361ms 200 text/html
+INFO  2019-06-26 14:39:06,347 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 14:39:06,350 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 14:39:06,356 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 14:39:06,403 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 14:39:06,408 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 14:39:06,410 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-06-26 14:39:06,421 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.2966ms 304 application/javascript
+INFO  2019-06-26 14:39:06,426 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 80.9544ms 304 text/css
+INFO  2019-06-26 14:39:06,446 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.9693ms 304 application/javascript
+INFO  2019-06-26 14:39:06,879 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 14:39:07,169 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:39:07,994 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1115.6627ms 200 application/json;charset=utf-8
+INFO  2019-06-26 14:39:20,767 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages_Tenants  
+INFO  2019-06-26 14:39:20,786 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:39:20,853 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:39:22,950 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages_Tenants) - Validation state: Valid
+ERROR 2019-06-26 14:39:29,576 [10   ] Mvc.ExceptionHandling.AbpExceptionFilter - Input string was not in a correct format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(ReadOnlySpan`1 str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt64(ReadOnlySpan`1 value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.String.System.IConvertible.ToInt64(IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Abp.Extensions.ObjectExtensions.To[T](Object obj) in D:\Github\aspnetboilerplate\src\Abp\Extensions\ObjectExtensions.cs:line 51
+   at Abp.UserIdentifier.Parse(String userIdentifierString) in D:\Github\aspnetboilerplate\src\Abp\UserIdentifier.cs:line 62
+   at Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync(String permissionName) in E:\GitHub\github.PowerDG\DDDgP2018\4.6.0\Fooww.Research\src\Fooww.Research.Application\Users\UserAppService.cs:line 235
+   at Castle.Proxies.Invocations.UserAppService_GetGrantedPermissionsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetGrantedPermissionsAsync(String permissionName)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-06-26 14:39:30,042 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:39:30,076 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 9218.9767ms
+INFO  2019-06-26 14:39:30,084 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9315.0755ms 500 application/json; charset=utf-8
+DEBUG 2019-06-26 14:47:32,428 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:47:32,578 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:47:32,603 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,609 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,610 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,612 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:32,617 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:47:32,721 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:47:32,721 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:47:32,721 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:47:32,721 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:47:33,252 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:47:34,923 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 14:47:35,038 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 14:47:35,089 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 14:47:35,116 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 14:47:35,148 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 14:47:35,439 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 14:47:35,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 14:47:35,514 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 14:47:35,525 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 14:47:35,526 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 14:47:35,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 14:47:35,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 14:47:35,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 14:47:35,527 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 14:47:35,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 14:47:35,529 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 14:47:35,529 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 14:47:44,549 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 14:47:51,649 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 14:47:53,623 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 14:47:53,639 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 5.1002ms.
+INFO  2019-06-26 14:47:54,163 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 14:47:54,185 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 2526.8936ms
+INFO  2019-06-26 14:47:54,293 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9756.2504ms 302 
+INFO  2019-06-26 14:47:54,330 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 14:47:54,401 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 68.4485ms 200 text/html
+INFO  2019-06-26 14:47:54,698 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 14:47:54,717 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 14:47:54,764 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 14:47:54,809 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-06-26 14:47:54,811 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 14:47:54,821 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 14:47:54,835 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 140.8922ms 304 application/javascript
+INFO  2019-06-26 14:47:54,861 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 138.8617ms 304 application/javascript
+INFO  2019-06-26 14:47:54,868 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 141.8439ms 304 text/css
+INFO  2019-06-26 14:47:55,535 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 14:47:55,905 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:47:56,937 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1442.1476ms 200 application/json;charset=utf-8
+INFO  2019-06-26 14:48:41,530 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=%22Pages.Tenants%22  
+INFO  2019-06-26 14:48:41,535 [9    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:48:41,637 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:48:43,968 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments ("Pages.Tenants") - Validation state: Valid
+ERROR 2019-06-26 14:48:44,259 [12   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no permission with name: "Pages.Tenants"
+Abp.AbpException: There is no permission with name: "Pages.Tenants"
+   at Abp.Authorization.PermissionManager.GetPermission(String name) in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionManager.cs:line 54
+   at Abp.Authorization.Users.AbpUserManager`2.IsGrantedAsync(Int64 userId, String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\Users\AbpUserManager.cs:line 140
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(Int64 userId, String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\PermissionChecker.cs:line 48
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\PermissionChecker.cs:line 43
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction) in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 113
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-06-26 14:48:44,781 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:48:44,821 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 3180.0376ms
+INFO  2019-06-26 14:48:44,826 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3295.5433ms 500 application/json; charset=utf-8
+DEBUG 2019-06-26 14:49:36,210 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:49:36,344 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:49:36,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,375 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,376 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,377 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:36,381 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:49:36,492 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:49:36,492 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:49:36,492 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:49:36,492 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:49:37,002 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:49:38,692 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 14:49:38,849 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 14:49:38,923 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 14:49:38,951 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 14:49:38,984 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 14:49:39,307 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 14:49:39,392 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 14:49:39,392 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 14:49:39,403 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 14:49:39,404 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 14:49:39,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 14:49:39,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 14:49:39,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 14:49:39,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 14:49:39,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 14:49:39,406 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 14:49:39,406 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 14:49:48,603 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 14:49:55,010 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 14:49:56,661 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 14:49:56,675 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.1248ms.
+INFO  2019-06-26 14:49:57,129 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 14:49:57,149 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 2130.8451ms
+INFO  2019-06-26 14:49:57,281 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8677.0945ms 302 
+INFO  2019-06-26 14:49:57,286 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 14:49:57,348 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 62.6065ms 200 text/html
+INFO  2019-06-26 14:49:57,544 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 14:49:57,550 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 14:49:57,557 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 14:49:57,598 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-06-26 14:49:57,601 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 14:49:57,604 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 14:49:57,613 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.7777ms 304 application/javascript
+INFO  2019-06-26 14:49:57,617 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.3905ms 304 application/javascript
+INFO  2019-06-26 14:49:57,648 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.1778ms 304 text/css
+INFO  2019-06-26 14:49:57,985 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 14:49:58,229 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:49:58,898 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 914.3072ms 200 application/json;charset=utf-8
+INFO  2019-06-26 14:50:16,629 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=%22Pages.Tenants%22  
+INFO  2019-06-26 14:50:16,670 [11   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:50:16,742 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:50:19,119 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments ("Pages.Tenants") - Validation state: Valid
+ERROR 2019-06-26 14:51:14,373 [15   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no permission with name: "Pages.Tenants"
+Abp.AbpException: There is no permission with name: "Pages.Tenants"
+   at Abp.Authorization.PermissionManager.GetPermission(String name) in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionManager.cs:line 54
+   at Abp.Authorization.Users.AbpUserManager`2.IsGrantedAsync(Int64 userId, String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\Users\AbpUserManager.cs:line 140
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(Int64 userId, String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\PermissionChecker.cs:line 48
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\PermissionChecker.cs:line 43
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync(String permissionName) in E:\GitHub\github.PowerDG\DDDgP2018\4.6.0\Fooww.Research\src\Fooww.Research.Application\Users\UserAppService.cs:line 237
+   at Castle.Proxies.Invocations.UserAppService_GetGrantedPermissionsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.UserAppServiceProxy.GetGrantedPermissionsAsync(String permissionName)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-06-26 14:51:15,095 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:51:15,154 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 58400.8595ms
+INFO  2019-06-26 14:51:15,167 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58537.959ms 500 application/json; charset=utf-8
+INFO  2019-06-26 14:51:27,564 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenants  
+INFO  2019-06-26 14:51:27,568 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:51:27,582 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:51:27,623 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenants) - Validation state: Valid
+INFO  2019-06-26 14:51:27,630 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.7242ms.
+INFO  2019-06-26 14:51:27,691 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:51:27,702 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 110.0442ms
+INFO  2019-06-26 14:51:27,720 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 145.0968ms 200 application/json; charset=utf-8
+INFO  2019-06-26 14:51:42,258 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenants  
+INFO  2019-06-26 14:51:42,266 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:51:42,277 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:51:42,309 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenants) - Validation state: Valid
+INFO  2019-06-26 14:51:42,315 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.1504ms.
+INFO  2019-06-26 14:51:42,346 [19   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:51:42,351 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 69.5253ms
+INFO  2019-06-26 14:51:42,361 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 98.1467ms 200 application/json; charset=utf-8
+INFO  2019-06-26 14:54:07,187 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenant%E5%9C%B0%E6%96%B9  
+INFO  2019-06-26 14:54:07,193 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:54:07,209 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:54:07,242 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenant地方) - Validation state: Valid
+DEBUG 2019-06-26 14:55:08,908 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 14:55:09,028 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 14:55:09,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:09,063 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 14:55:09,171 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:55:09,171 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:55:09,172 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:55:09,172 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 14:55:09,668 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 14:55:11,497 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 14:55:11,632 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 14:55:11,699 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 14:55:11,727 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 14:55:11,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 14:55:12,049 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 14:55:12,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 14:55:12,115 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 14:55:12,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 14:55:12,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 14:55:12,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 14:55:12,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 14:55:12,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 14:55:12,131 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 14:55:12,131 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 14:55:12,132 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 14:55:12,132 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 14:55:20,817 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 14:55:26,577 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 14:55:28,139 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 14:55:28,150 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 3.9181ms.
+INFO  2019-06-26 14:55:28,600 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 14:55:28,624 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 2037.5506ms
+INFO  2019-06-26 14:55:28,716 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7910.7068ms 302 
+INFO  2019-06-26 14:55:28,731 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 14:55:28,797 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 65.4831ms 200 text/html
+INFO  2019-06-26 14:55:29,059 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 14:55:29,063 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 14:55:29,066 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 14:55:29,076 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-06-26 14:55:29,080 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-06-26 14:55:29,113 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 14:55:29,116 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 14:55:29,121 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2019-06-26 14:55:29,123 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2019-06-26 14:55:29,134 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.5947ms 304 application/javascript
+INFO  2019-06-26 14:55:29,140 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.613ms 304 application/javascript
+INFO  2019-06-26 14:55:29,158 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 58.2909ms 304 application/javascript
+INFO  2019-06-26 14:55:29,165 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 114.9578ms 304 application/javascript
+INFO  2019-06-26 14:55:29,297 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-06-26 14:55:29,343 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 317.603ms 200 text/css
+INFO  2019-06-26 14:55:29,601 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 14:55:29,837 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:55:30,532 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 937.7585ms 200 application/json;charset=utf-8
+INFO  2019-06-26 14:55:52,388 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenants  
+INFO  2019-06-26 14:55:52,392 [7    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:55:52,478 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:55:54,590 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenants) - Validation state: Valid
+INFO  2019-06-26 14:55:54,648 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 45.0215ms.
+INFO  2019-06-26 14:55:54,805 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:55:54,850 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 2368.9805ms
+INFO  2019-06-26 14:55:54,854 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2468.2479ms 200 application/json; charset=utf-8
+INFO  2019-06-26 14:56:03,206 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenan  
+INFO  2019-06-26 14:56:03,210 [10   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:56:03,225 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:56:03,261 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenan) - Validation state: Valid
+ERROR 2019-06-26 14:56:03,392 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no permission with name: Pages.Tenan
+Abp.AbpException: There is no permission with name: Pages.Tenan
+   at Abp.Authorization.PermissionManager.GetPermission(String name) in D:\Github\aspnetboilerplate\src\Abp\Authorization\PermissionManager.cs:line 54
+   at Abp.Authorization.Users.AbpUserManager`2.IsGrantedAsync(Int64 userId, String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\Users\AbpUserManager.cs:line 140
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(Int64 userId, String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\PermissionChecker.cs:line 48
+   at Abp.Authorization.PermissionChecker`2.IsGrantedAsync(String permissionName) in D:\Github\aspnetboilerplate\src\Abp.ZeroCore\Authorization\PermissionChecker.cs:line 43
+   at Abp.Threading.InternalAsyncHelper.AwaitTaskWithPostActionAndFinallyAndGetResult[T](Task`1 actualReturnValue, Func`1 postAction, Action`1 finalAction) in D:\Github\aspnetboilerplate\src\Abp\Threading\InternalAsyncHelper.cs:line 113
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-06-26 14:56:04,128 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:56:04,142 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 908.4568ms
+INFO  2019-06-26 14:56:04,147 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 941.0955ms 500 application/json; charset=utf-8
+INFO  2019-06-26 14:56:20,144 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenants  
+INFO  2019-06-26 14:56:20,148 [12   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 14:56:20,159 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 14:56:20,192 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenants) - Validation state: Valid
+INFO  2019-06-26 14:56:20,198 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.0799ms.
+INFO  2019-06-26 14:56:20,251 [16   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 14:56:20,260 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 93.9214ms
+INFO  2019-06-26 14:56:20,280 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 120.6621ms 200 application/json; charset=utf-8
+DEBUG 2019-06-26 15:49:39,405 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-06-26 15:49:39,546 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-06-26 15:49:39,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.Web.Host.Startup.ResearchWebHostModule, Fooww.Research.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,589 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchWebCoreModule, Fooww.Research.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchApplicationModule, Fooww.Research.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,590 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.ResearchCoreModule, Fooww.Research.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Fooww.Research.EntityFrameworkCore.ResearchEntityFrameworkModule, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:39,600 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-06-26 15:49:39,702 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 15:49:39,702 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 15:49:39,702 [1    ] o.Configuration.LanguageManagementConfig - Converted Research (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 15:49:39,702 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-06-26 15:49:40,285 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Fooww.Research.EntityFrameworkCore.ResearchDbContext, Fooww.Research.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-06-26 15:49:42,598 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-06-26 15:49:42,804 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-06-26 15:49:42,890 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-06-26 15:49:42,932 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Research
+DEBUG 2019-06-26 15:49:42,966 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-06-26 15:49:43,290 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-06-26 15:49:43,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-06-26 15:49:43,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-06-26 15:49:43,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.CreateUserDto
+DEBUG 2019-06-26 15:49:43,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Users.Dto.UserDto
+DEBUG 2019-06-26 15:49:43,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-06-26 15:49:43,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-06-26 15:49:43,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.CreateRoleDto
+DEBUG 2019-06-26 15:49:43,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.PermissionDto
+DEBUG 2019-06-26 15:49:43,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.Roles.Dto.RoleDto
+DEBUG 2019-06-26 15:49:43,382 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-06-26 15:49:43,382 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Fooww.Research.MultiTenancy.Dto.TenantDto
+INFO  2019-06-26 15:49:59,206 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-06-26 15:50:06,078 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host)
+INFO  2019-06-26 15:50:07,943 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) - Validation state: Valid
+INFO  2019-06-26 15:50:07,957 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 4.0964ms.
+INFO  2019-06-26 15:50:08,170 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-06-26 15:50:08,196 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Web.Host.Controllers.HomeController.Index (Fooww.Research.Web.Host) in 2109.2946ms
+INFO  2019-06-26 15:50:08,311 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9122.3171ms 302 
+INFO  2019-06-26 15:50:08,464 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-06-26 15:50:08,570 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.1139ms 200 text/html
+INFO  2019-06-26 15:50:09,521 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-06-26 15:50:09,544 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-06-26 15:50:09,565 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-06-26 15:50:09,599 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-06-26 15:50:09,608 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-06-26 15:50:09,633 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-06-26 15:50:09,637 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2019-06-26 15:50:09,641 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2019-06-26 15:50:09,645 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-06-26 15:50:09,661 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 81.0308ms 304 application/javascript
+INFO  2019-06-26 15:50:09,665 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.2856ms 304 application/javascript
+INFO  2019-06-26 15:50:09,670 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 102.7477ms 304 application/javascript
+INFO  2019-06-26 15:50:09,673 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 127.8738ms 304 application/javascript
+INFO  2019-06-26 15:50:09,725 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-06-26 15:50:09,791 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 240.9376ms 200 text/css
+INFO  2019-06-26 15:50:10,243 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2019-06-26 15:50:10,258 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLNQ1BH0QO82", Request id "0HLNQ1BH0QO82:00000002": the application aborted the connection.
+INFO  2019-06-26 15:50:10,274 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2019-06-26 15:50:10,280 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.1028ms 0 image/png
+INFO  2019-06-26 15:50:10,566 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-06-26 15:50:11,367 [6    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 15:50:12,656 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2093.4281ms 200 application/json;charset=utf-8
+INFO  2019-06-26 15:51:39,182 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetGrantedPermissionsAsync?permissionName=Pages.Tenants  
+INFO  2019-06-26 15:51:39,190 [14   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2019-06-26 15:51:39,480 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetGrantedPermissionsAsync", controller = "User"}. Executing action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application)
+INFO  2019-06-26 15:51:42,343 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) with arguments (Pages.Tenants) - Validation state: Valid
+INFO  2019-06-26 15:51:42,376 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 27.673ms.
+INFO  2019-06-26 15:51:42,565 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-06-26 15:51:42,602 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Fooww.Research.Users.UserAppService.GetGrantedPermissionsAsync (Fooww.Research.Application) in 3117.2889ms
+INFO  2019-06-26 15:51:42,606 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3439.223ms 200 application/json; charset=utf-8

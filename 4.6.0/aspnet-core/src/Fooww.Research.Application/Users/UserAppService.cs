@@ -230,6 +230,11 @@ namespace Fooww.Research.Users
 
         #region MyRegion
 
+        public virtual async Task<bool> GetGranteddesignatedPermissionsAsync(long userId, string permissionName)
+        {
+            return await _userManager.IsGrantedAsync(userId, permissionName);
+        }
+
         public virtual async Task<List<Permission>> GetGrantedAllPermissionsAsync(long userId)
         {
             var permissionList = new List<Permission>();
