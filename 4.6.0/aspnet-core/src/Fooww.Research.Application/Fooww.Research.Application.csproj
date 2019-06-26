@@ -11,6 +11,13 @@
     <RootNamespace>Fooww.Research</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="DgTools\BearerClaims.cs" />
+    <Compile Remove="DgTools\PostObject.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Fooww.Research.Core\Fooww.Research.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DgTools\" />
   </ItemGroup>
 </Project>

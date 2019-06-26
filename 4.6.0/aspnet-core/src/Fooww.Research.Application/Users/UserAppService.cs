@@ -13,6 +13,7 @@ using Abp.Linq.Extensions;
 using Abp.Localization;
 using Abp.Runtime.Session;
 using Abp.UI;
+using AutoMapper;
 using Fooww.Research.Authorization;
 using Fooww.Research.Authorization.Accounts;
 using Fooww.Research.Authorization.Roles;
@@ -35,7 +36,8 @@ namespace Fooww.Research.Users
         private readonly IAbpSession _abpSession;
         private readonly LogInManager _logInManager;
 
-        private readonly IDapperRepository<book> _personDapperRepository;
+        private readonly IPermissionManager _permissionManager;
+        //private readonly IDapperRepository<book> _personDapperRepository;
 
         public UserAppService(
             IRepository<User, long> repository,
@@ -43,6 +45,8 @@ namespace Fooww.Research.Users
             RoleManager roleManager,
             IRepository<Role> roleRepository,
             IPasswordHasher<User> passwordHasher,
+
+            IPermissionManager permissionManager,
             IAbpSession abpSession,
             LogInManager logInManager)
             : base(repository)
@@ -53,6 +57,8 @@ namespace Fooww.Research.Users
             _passwordHasher = passwordHasher;
             _abpSession = abpSession;
             _logInManager = logInManager;
+
+            _permissionManager = permissionManager;
         }
 
         public override async Task<UserDto> Create(CreateUserDto input)
@@ -222,6 +228,26 @@ namespace Fooww.Research.Users
             return true;
         }
 
+        #region MyRegion
+
+        public virtual async Task<List<Permission>> GetGrantedAllPermissionsAsync(long userId)
+        {
+            var permissionList = new List<Permission>();
+            foreach (var permission in _permissionManager.GetAllPermissions())
+            {
+                if (await _userManager.IsGrantedAsync(userId, permission))
+                {
+                    var temp = permission;
+                    permissionList.Add(Mapper.Map<Permission>(permission));
+                }
+            }
+
+            return permissionList;
+            //.ToArray<Permission[]>();
+            //https://www.cnblogs.com/dean-Wei/p/3150553.html
+            //http://www.voidcn.com/article/p-wpdeckgc-btn.html
+        }
+
+        #endregion MyRegion
     }
 }
-
