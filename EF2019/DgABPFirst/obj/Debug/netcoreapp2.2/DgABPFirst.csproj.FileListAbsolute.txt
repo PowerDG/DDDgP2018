@@ -1,0 +1,14 @@
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\bin\Debug\netcoreapp2.2\DgABPFirst.deps.json
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\bin\Debug\netcoreapp2.2\DgABPFirst.runtimeconfig.json
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\bin\Debug\netcoreapp2.2\DgABPFirst.runtimeconfig.dev.json
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\bin\Debug\netcoreapp2.2\DgABPFirst.dll
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.csprojAssemblyReference.cache
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.csproj.CoreCompileInputs.cache
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.RazorAssemblyInfo.cache
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.RazorAssemblyInfo.cs
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.AssemblyInfoInputs.cache
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.AssemblyInfo.cs
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.RazorTargetAssemblyInfo.cache
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\bin\Debug\netcoreapp2.2\DgABPFirst.pdb
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.dll
+E:\GitHub\github.PowerDG\DDDgP2018\EF2019\DgABPFirst\obj\Debug\netcoreapp2.2\DgABPFirst.pdb
