@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DgABPFirst
 {
@@ -80,36 +81,36 @@ public bool IsTwoFactorEnabled { get; set; }
 [Column("is_email_confirmed")]
 public bool IsEmailConfirmed { get; set; }
 [Column("is_active")]
-public bool IsActive { get; set; }
-        public long Id { get; set; }
-        public long? CreatorUserId { get; set; }
-        public long? LastModifierUserId { get; set; }
-        public bool IsDeleted { get; set; }
-        public long? DeleterUserId { get; set; }
-        public DateTime? DeletionTime { get; set; }
-        public string AuthenticationSource { get; set; }
-        public string UserName { get; set; }
-        public int? TenantId { get; set; }
-        public string EmailAddress { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Password { get; set; }
-        public string EmailConfirmationCode { get; set; }
-        public string PasswordResetCode { get; set; }
-        public DateTime? LockoutEndDateUtc { get; set; }
-        public int AccessFailedCount { get; set; }
-        public bool IsLockoutEnabled { get; set; }
-        public string PhoneNumber { get; set; }
-        public bool IsPhoneNumberConfirmed { get; set; }
-        public string SecurityStamp { get; set; }
-        public bool IsTwoFactorEnabled { get; set; }
-        public bool IsEmailConfirmed { get; set; }
-        public bool IsActive { get; set; }
-        public string NormalizedUserName { get; set; }
-        public string NormalizedEmailAddress { get; set; }
-        public string ConcurrencyStamp { get; set; }
-        public DateTime CreateTime { get; set; }
-        public DateTime? ModifiedTime { get; set; }
+//public bool IsActive { get; set; }
+//        public long Id { get; set; }
+//        public long? CreatorUserId { get; set; }
+//        public long? LastModifierUserId { get; set; }
+//        public bool IsDeleted { get; set; }
+//        public long? DeleterUserId { get; set; }
+//        public DateTime? DeletionTime { get; set; }
+//        public string AuthenticationSource { get; set; }
+//        public string UserName { get; set; }
+//        public int? TenantId { get; set; }
+//        public string EmailAddress { get; set; }
+//        public string Name { get; set; }
+//        public string Surname { get; set; }
+//        public string Password { get; set; }
+//        public string EmailConfirmationCode { get; set; }
+//        public string PasswordResetCode { get; set; }
+//        public DateTime? LockoutEndDateUtc { get; set; }
+//        public int AccessFailedCount { get; set; }
+//        public bool IsLockoutEnabled { get; set; }
+//        public string PhoneNumber { get; set; }
+//        public bool IsPhoneNumberConfirmed { get; set; }
+//        public string SecurityStamp { get; set; }
+//        public bool IsTwoFactorEnabled { get; set; }
+//        public bool IsEmailConfirmed { get; set; }
+//        public bool IsActive { get; set; }
+//        public string NormalizedUserName { get; set; }
+//        public string NormalizedEmailAddress { get; set; }
+//        public string ConcurrencyStamp { get; set; }
+//        public DateTime CreateTime { get; set; }
+//        public DateTime? ModifiedTime { get; set; }
 
         public virtual Abpusers CreatorUser { get; set; }
         public virtual Abpusers DeleterUser { get; set; }
